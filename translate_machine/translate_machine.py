@@ -35,7 +35,7 @@ class TextTranslatorApp:
         self.result_label.grid(row=4, column=0, columnspan = 2, pady=10)
 
     def translate_text(self):
-        api_key = "AIzaSyAUfymyJHYeWFHaBN74XbiORX-FtfVG9gg"
+        api_key = "xxxx"
         text_to_translate = self.entry.get()
 
         url = "https://translation/googleapis.com/language/translate/v2"
